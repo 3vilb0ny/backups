@@ -1,0 +1,24 @@
+# Server IP Address
+SERVER_IP=""
+SERVER_USER=""
+
+# Backup period (crontab format)
+BACKUP_PERIOD="" # 0 2 * * *
+
+# Retention period in days
+RETENTION="" # 1 - 2 - 0.5
+
+# Destination directory
+DESTINATION_DIRECTORY=""
+
+# Database Credentials
+DB_NAME="" # If null, no database be backup
+DB_PORT=""
+DB_USERNAME=""
+DB_PASSWORD=""
+
+# SSH Key File (Only for backup directories)
+SSH_KEY_PATH="~/.ssh/id_rsa"
+
+# Directories to backup, separated by ","
+DIRECTORIES="" # Nullable
